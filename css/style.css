@@ -1,0 +1,23 @@
+/* Custom styles */
+.hero {
+    padding: 60px 0;
+    background-image: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        padding: 100px 0;
+    }
+}
+
+.service-card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
